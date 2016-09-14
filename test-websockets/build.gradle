@@ -9,6 +9,12 @@ buildscript {
 }
 apply plugin: 'java'
 apply plugin: 'spring-boot'
+apply plugin: 'eclipse'
+
+jar {
+    baseName = 'test-websockets'
+    version =  '0.1.0'
+}
 
 repositories {
     mavenCentral()
@@ -18,9 +24,11 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 dependencies {
-//	compile("javax.websocket:javax.websocket-api:1.0")
 	compile("org.springframework.boot:spring-boot-starter-web:1.4.0.RELEASE")
 	compile("org.springframework.boot:spring-boot-starter-test:1.4.0.RELEASE")
+	compile("org.springframework.boot:spring-boot-starter-jetty:1.4.0.RELEASE")
+	compile("org.springframework.boot:spring-boot-starter-amqp:1.4.0.RELEASE")
+	
 	compile("org.springframework:spring-websocket:4.3.2.RELEASE")
 	compile("org.springframework:spring-context:4.3.2.RELEASE")
 	compile("org.springframework:spring-tx:4.3.2.RELEASE")
@@ -32,4 +40,6 @@ dependencies {
 
 configurations {
 //	all*.exclude module: 'tomcat-embed-websocket'
+	all*.exclude module: 'spring-boot-starter-tomcat'
+//	all*.exclude module: 'spring-boot-starter-logging'
 }

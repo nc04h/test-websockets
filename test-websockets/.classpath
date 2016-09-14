@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="con" path="org.springsource.ide.eclipse.gradle.classpathcontainer"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Users/inga/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.3.2.RELEASE/9ed0fa8f5d9596d28f1ea9961177e2a7cb815c79/spring-test-4.3.2.RELEASE.jar" sourcepath="C:/Users/inga/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.3.2.RELEASE/c85326db3240124464fa47d03e3c26a96c70cc9e/spring-test-4.3.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/inga/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="javax.inject"/>
+			<attribute name="maven.artifactId" value="javax.inject"/>
+			<attribute name="maven.version" value="1"/>
+			<attribute name="maven.scope" value="provided"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/inga/.gradle/caches/modules-2/files-2.1/javax.websocket/javax.websocket-api/1.0/fc843b649d4a1dcb0497669d262befa3918c7ba8/javax.websocket-api-1.0.jar" sourcepath="C:/Users/inga/.gradle/caches/modules-2/files-2.1/javax.websocket/javax.websocket-api/1.0/107b0fdc7ca320b54dc1393e01585be5883ff348/javax.websocket-api-1.0-sources.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
